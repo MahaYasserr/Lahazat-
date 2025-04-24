@@ -32,3 +32,22 @@
 .click:hover {
   background-color: #cb6c6e;
 }
+
+.gutter {
+  row-gap: 5rem;
+}
+
+.bg2 {
+  background: linear-gradient(
+      rgba(248, 237, 227, 0.3),
+      rgba(248, 237, 227, 0.3)
+    ),
+    url(../images/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.iconColor {
+  color: #df9596;
+}
