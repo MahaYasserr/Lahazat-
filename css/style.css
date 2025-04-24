@@ -56,4 +56,22 @@
   .w-lg-75 {
     width: 75% !important;
   }
+  .w-lg-25 {
+    width: 25% !important;
+  }
+  .w-50 {
+    width: 50% !important;
+  }
+}
+
+.sub-list {
+  display: none;
+  margin-left: 20px;
+}
+.active + .sub-list {
+  display: block;
+}
+
+.cursor {
+  cursor: pointer;
 }

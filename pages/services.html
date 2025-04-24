@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>لحظات</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      body {
+        font-family: "Tajawal", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="background">
+    <div class="sticky-top">
+      <nav class="navbar navbar-expand-lg mainColor d-flex   shadow-sm ">
+        <div class="container   px-5">
+          <a class="navbar-brand" href="#">
+            <div class="logo">
+              <img src="../images/logo png.png" alt="Logo" class="" width="80" />
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav   mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  fontNavbar" aria-current="page" href="../index.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fontNavbar" aria-current="page" href="../pages/services.html">الخدمات</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fontNavbar" aria-current="page" href="#">المزيد عنا</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container mt-5 pt-5">
+        <h1 class="text-center">الخدمات</h1>
+        <p class="text-center">نقدم مجموعة متنوعة من الخدمات لتلبية احتياجاتك.</p>
+        </div>
+    <div class="container ">
+        <ul class="list-unstyled">
+            <li class="cursor fs-2 mb-2" onclick="toggle(this)"><i class="fa-regular fa-square-caret-left"></i> التصوير</li>
+            <ul class="sub-list list-unstyled">
+              <div class="row">
+                <div class="col-md-12 secondaryColor p-4 rounded-5 text-white">
+                  <div class="d-flex align-content-between justify-content-between">
+                    <div>
+                      <li class="fs-2 ">محمد احمد قاسم</li>
+                      <p>مصور محترف ذو خبرة تزيد عن 5 سنوات في مجال التصوير الفوتوغرافي والفيديو. متخصص في تصوير حفلات الزفاف والمناسبات الخاصة. أسلوبه يجمع بين الإبداع والاحترافية</p>
+                      <p>السعر: <span class="fw-bolder">250 ريال</span></p>
+                      <a href="" class="btn mainColor ">احجز الان</a>
+                    </div>
+                    <div class="w-lg-25 w-100  ">
+                      <img class="img-fluid rounded-5" src="../images/photohrapher.jpg" alt="">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          
+           
+        </ul>
+        <ul class="list-unstyled">
+            <li class="cursor fs-2" onclick="toggle(this)"></li>
+            <ul class="sub-list list-unstyled">
+              <div class="row">
+                <div class="col-md-12 secondaryColor p-4 rounded-5 text-white">
+                  <div class="d-flex align-content-between justify-content-between">
+                    <div>
+                      <li class="fs-2 ">محمد احمد قاسم</li>
+                      <p>مصور محترف ذو خبرة تزيد عن 5 سنوات في مجال التصوير الفوتوغرافي والفيديو. متخصص في تصوير حفلات الزفاف والمناسبات الخاصة. أسلوبه يجمع بين الإبداع والاحترافية</p>
+                      <p>السعر: <span class="fw-bolder">250 ريال</span></p>
+                      <a href="" class="btn mainColor ">احجز الان</a>
+                    </div>
+                    <div class="w-lg-25 w-100  ">
+                      <img class="img-fluid rounded-5" src="../images/photohrapher.jpg" alt="">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          
+           
+        </ul>
+    </div>
+
+
+    <footer class="pt-5 secondaryColor">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 ">
+              <p class="text-white fw-bolder">  <i class="fa-solid fa-hand-point-left"></i> سجل معنا و سيتواصل معك احد اعضاء الفريق !</p>
+              <form class="text-white">
+                  <div class="text-white w-lg-75 w-100 ">
+                    <label for="userEmail" class="form-label">الايميل</label>
+                    <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3 w-lg-75 w-100">
+                    <label for="userName" class="form-label">الاسم</label>
+                    <input type="text" class="form-control" id="userName">
+                  </div>
+                  <div class="mb-3 w-lg-75 w-100">
+                    <label for="userNumber" class="form-label">الرقم</label>
+                    <input type="number" class="form-control" id="userNumber">
+                  </div>
+                  <div class="mb-3 w-lg-75 w-100">
+                    <label for="userDate" class="form-label">التاريخ</label>
+                    <input type="date" class="form-control" id="userDate">
+                  </div>
+                  <div class="w-lg-75 w-100 ">
+                    <label for="userMessage" class="form-label">الخدمة</label>
+                    <textarea class="form-control" id="userMessage" rows="3"></textarea>
+                  <button type="submit" class="btn my-3 secondaryColorDark click text-white ">ارسال</button>
+                  </div>
+                </form>
+            </div>
+            <div class="col-md-6 mb-4 text-white d-flex flex-column  align-items-start">
+              <h5 class="fw-bold mb-3">تابعنا وتواصل معنا</h5>
+              <p class="mb-3">
+                نسعد دائماً بالتواصل معكم! تابعونا على منصات التواصل الاجتماعي أو تواصلوا معنا عبر البريد أو الهاتف.
+              </p>
+            
+              
+              <div class="d-flex gap-3 mb-4">
+                <a href="#" class="text-white fs-4" ><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white fs-4" ><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white fs-4" ><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white fs-4"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="text-white fs-4"><i class="fab fa-youtube"></i></a>
+              </div>
+            
+              
+              <ul class="list-unstyled">
+                <li class="mb-2"><i class="fas fa-envelope me-2 text-white"></i> info@lahzat.com</li>
+                <li class="mb-2"><i class="fas fa-phone me-2 text-white"></i> +966 555 123 456</li>
+                <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-white"></i> الرياض، المملكة العربية السعودية</li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+</html>
