@@ -42,7 +42,7 @@
       rgba(248, 237, 227, 0.3),
       rgba(248, 237, 227, 0.3)
     ),
-    url(../images/bg2.jpg);
+    url(../images/bg2.webp);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -64,7 +64,7 @@
   }
 }
 
-.sub-list {
+/* .sub-list {
   display: none;
   margin-left: 20px;
 }
@@ -74,4 +74,4 @@
 
 .cursor {
   cursor: pointer;
-}
+} */
